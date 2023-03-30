@@ -2,9 +2,9 @@
   "name": "conexion",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "conexion.js",
   "scripts": {
-    "sql": "nodemon conexion.js",
+    "start": "nodemon conexion.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
