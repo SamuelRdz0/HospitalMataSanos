@@ -40,6 +40,12 @@ var database = BD.connDB;
 //     });
 //   });
 
+
+
+  aplicacion.get('/', (req, res) => {
+    res.json({hola : 'hola'});
+  });
+
 aplicacion.post('/login', (req, res) => {
     const respuesta = {};
     var password = req.body.contrasena;
